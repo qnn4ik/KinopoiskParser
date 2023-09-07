@@ -13,7 +13,7 @@ from selenium import webdriver
 class Parser:
     """Represents a parser that collects film data from every page and saves it in .json or .csv format"""
 
-    __base_url = 'https://www.kinopoisk.ru/lists/movies/popular-films//'
+    __base_url = 'https://www.kinopoisk.ru/lists/movies/top250/'
 
     def __init__(self):
         # self.page_counter = 1
